@@ -33,6 +33,11 @@ variable "aws_instance_type" {
   description = "Instance type for ec2"
 }
 
+variable "deployment_id" {
+  type = string
+  description = "deployment id that created this ec2 instance"
+}
+
 variable "aws_amis" {
   type = map(string)
   default = {
