@@ -23,7 +23,7 @@ variable "image" {
   default = {
     publisher = "OpenLogic"
     offer = "CentOS"
-    sku = "7.5"
+    sku = "7_9"
     version = "latest"
   }
 }
