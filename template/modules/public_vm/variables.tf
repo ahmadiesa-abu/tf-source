@@ -54,3 +54,9 @@ variable "env_name" {
     description = "Environment name"
     default = "example"
 }
+
+variable "environment" {
+    type = string
+    description = "Environment tag"
+    default = "Test"
+}

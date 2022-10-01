@@ -30,6 +30,7 @@ resource "aws_instance" "example_vm" {
     Name = "cloudify-public-${var.env_name}-vm"
     Created_by = "Cloudify"
     Deployment_id = var.deployment_id
+    Env  = var.environment
   }
 
   # Lookup the correct AMI based on the region

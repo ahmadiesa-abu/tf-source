@@ -65,3 +65,9 @@ variable "vm_size" {
   type = string
   description = "Instance type for ec2"
 }
+
+variable "environment" {
+    type = string
+    description = "Environment tag"
+    default = "Test"
+}

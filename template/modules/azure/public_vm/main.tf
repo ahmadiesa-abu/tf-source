@@ -114,6 +114,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
     tags = {
       Created_by = "Cloudify"
       Deployment_id = var.deployment_id
+      Env  = var.environment
     }
 }
 
